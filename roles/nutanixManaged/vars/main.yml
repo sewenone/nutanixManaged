@@ -18,7 +18,7 @@ snapshot_name: ""
 #### Features #### 
 # Create VMs Centos7 and Windows2012R2
 # Install and update NGT
-vm_name_nutanix_display: "MATARESE-TEST"
+vm_name_nutanix_display: "VM-TEST"
 num_vcpus: "2"
 num_cores_per_vcpu: "1"
 memory: "4"
@@ -54,8 +54,8 @@ createVmWindowsTemplate2012R2_script_path: "/usr/local/script/createVmWindowsTem
 cifs_host: //10.50.6.11/ngt
 mount_point: /home/agility/ngt
 user_dir_agility: /home/agility
-win_user: agility.alcantara
-win_pass: Mudar@123
+win_user: yuser
+win_pass: password
 script_installNGT: C:\Users\agility.alcantara\Documents\installNGT.bat
 dir_script_installNGT: C:\Users\agility.alcantara\Documents
 script_name: installNGT.bat
@@ -64,5 +64,5 @@ script_name: installNGT.bat
 cvm_host_url: "https://10.40.2.23"
 cvm_host_port: ":9440"
 cvm_uri_api: "/PrismGateway/services/rest/v2.0/snapshots/"
-user_api: "agility.alcantara@rmansur.com.br"
-pass_api: "Mudar@123"
+user_api: "api_user"
+pass_api: "api_password"
